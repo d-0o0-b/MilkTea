@@ -1,0 +1,106 @@
+.detail{
+    padding-top: 46px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    .detail-box{
+        position: relative;
+    }
+    .pro-name{
+        position: absolute;
+        left: 20px;
+        bottom: 60px;
+        background-color: rgba(255, 255, 255, .7);
+        // height: 36px;
+        // line-height: 36px;
+        font-size: 16px;
+        padding: 5px 18px;
+        min-width: 120px;
+        border-radius: 18px;
+        color: #444;
+        text-align: center;
+    }
+    .detail-info{
+        position: relative;
+        top: -30px;
+        background-color: #fff;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 20px;
+    }
+
+    .rule-box{
+        border-bottom: 1px solid #e8e8e8
+    }
+
+    .rule-item{
+        margin-bottom: 20px;
+    }
+    .rule-item-title,.rule-item-tag{
+        height: 26px;
+        width: 60px;
+        font-size: 14px;
+        line-height: 26px;
+        color: #444;
+    }
+    .rule-item-tag{
+        width: 70px;
+        background-color: #ebebeb;
+        text-align: center;
+        border-radius: 13px;
+        color: #6a6a6a;
+        margin-right: 20px;
+        font-size: 12px;
+        &:last-child{
+            margin: 0;
+        }
+        &.active{
+            background-color: rgb(84, 106, 233);
+            color: #fff;
+        }
+    }
+
+    .desc-box{
+        margin-top: 20px;
+        border-bottom: 1px solid #e8e8e8;
+        padding-bottom: 20px;
+    }
+
+    .desc-title{
+        font-size: 14px;
+        color: #444;
+        margin-bottom: 20px;
+    }
+    .desc-text{
+        margin-bottom: 10px;
+        font-size: 12px;
+        color: #999;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .desc-price-count{
+        margin-top: 20px;
+    }
+    .price{
+        color: #0c34ba;
+        font-size: 14px;
+        font-weight: bold;
+        height: 24px;
+        line-height: 24px;
+    }
+
+    /deep/ .van-stepper__plus{
+        background-color: #0c34ba;
+    }
+    /deep/ .van-stepper__minus{
+        color:  #0c34ba;
+        border-color: #0c34ba;
+    }
+
+    /deep/ .van-nav-bar__text,.van-icon-arrow-left::before{
+        color:  #0c34ba;
+    }
+    /deep/ .van-nav-bar {
+        // background-color: rgb(216, 215, 228);
+    }
+}
